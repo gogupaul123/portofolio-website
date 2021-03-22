@@ -383,6 +383,11 @@ body {
   color: white;
 }
 
+.test {
+  position: absolute;
+  top: 0;
+}
+
 .grid-text p {
   width: 90%;
   -ms-flex-item-align: end;
