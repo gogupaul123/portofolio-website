@@ -297,7 +297,7 @@ body {
   height: 100% !important;
 
   position: absolute;
-
+  display: grid;
   justify-items: center;
   text-align: center;
   justify-self: center;
@@ -329,9 +329,6 @@ body {
   opacity: 0 !important;
 }
 
-.display {
-  display: block;
-}
 .scale {
   transform: scale(1.12);
 }
