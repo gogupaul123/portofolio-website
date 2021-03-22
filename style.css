@@ -409,8 +409,7 @@ body {
 }
 
 .display {
-  display: -ms-grid;
-  display: grid;
+  display: block;
 }
 
 .scale {
