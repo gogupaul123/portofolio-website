@@ -375,6 +375,7 @@ body {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   pointer-events: visible;
+  z-index: 10;
 }
 
 .grid-text {
@@ -382,6 +383,7 @@ body {
   position: absolute;
   top: 0;
   z-index: 15;
+
   -ms-grid-rows: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   justify-items: center;
