@@ -297,9 +297,7 @@ body {
   height: 100% !important;
 
   position: absolute;
-  top: 0;
 
-  grid-template-rows: 1fr 1fr;
   justify-items: center;
   text-align: center;
   justify-self: center;
@@ -307,6 +305,9 @@ body {
 }
 .test {
   position: absolute;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  top: 0;
 }
 .grid-text p {
   width: 90%;

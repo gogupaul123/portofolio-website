@@ -374,9 +374,6 @@ body {
 .grid-text {
   height: 100% !important;
   position: absolute;
-  top: 0;
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
   justify-items: center;
   text-align: center;
   -ms-grid-column-align: center;
@@ -386,6 +383,11 @@ body {
 
 .test {
   position: absolute;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  top: 0;
 }
 
 .grid-text p {
