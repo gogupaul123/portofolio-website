@@ -384,6 +384,10 @@ body {
   color: white;
 }
 
+.test {
+  position: absolute;
+}
+
 .grid-text p {
   width: 90%;
   -ms-flex-item-align: end;
