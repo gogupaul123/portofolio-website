@@ -381,7 +381,7 @@ body {
   height: 100% !important;
   position: absolute;
   top: 0;
-  display: grid;
+
   -ms-grid-rows: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   justify-items: center;
