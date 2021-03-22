@@ -415,7 +415,7 @@ body {
 }
 
 .display {
-  display: -webkit-box;
+  display: grid;
 }
 
 .scale {
