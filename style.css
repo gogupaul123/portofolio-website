@@ -380,7 +380,6 @@ body {
   height: 20%;
   margin-top: -40%;
   width: 95%;
-  z-index: 50;
   justify-items: center;
   text-align: center;
   -ms-grid-column-align: center;
@@ -388,12 +387,8 @@ body {
   color: white;
 }
 
-.test {
-  display: none;
-  height: 20%;
-  margin-top: -40%;
-  width: 95%;
-  z-index: 50;
+.grid-text a {
+  z-index: 10;
 }
 
 .text1,
